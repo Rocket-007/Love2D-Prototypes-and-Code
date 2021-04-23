@@ -1,0 +1,3428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<map version="1.2" orientation="orthogonal" renderorder="right-down" width="60" height="42" tilewidth="64" tileheight="64" nextobjectid="574">
+  <properties>
+    <property name="sw1" value="155" />
+    <property name="sw2" value="123" />
+    <property name="sw3" value="181" />
+    <property name="sw4" value="397" />
+    <property name="sw5" value="398" />
+    <property name="sw6" value="373" />
+  </properties>
+  <tileset firstgid="1" name="tile64_new" margin="2" spacing="2" columns="30" tilecount="900" tileheight="64" tilewidth="64">
+    <image source="tile64_new.png" width="1984" height="1984" />
+    <tile id="869" />
+    <tile id="839">
+      <properties>
+        <property name="collidable" type="boolean" value="true" />
+        <property name="collidable" value="true" />
+      </properties>
+    </tile>
+    <tile id="809" />
+    <tile id="838" />
+  </tileset>
+  <tileset firstgid="901" name="tile64_new-1" columns="2" tilecount="2" tileheight="64" tilewidth="64">
+    <image source="tile64_new-1.png" width="150" height="127" />
+  </tileset>
+  <layer name="Layer 3" width="60" height="42">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,734,734,734,901,901,901,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,734,734,901,901,901,901,814,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,734,734,901,858,901,901,901,901,901,844,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,901,901,901,901,901,901,901,901,874,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,853,854,0,0,734,734,0,0,0,0,884,901,901,901,901,901,855,856,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,883,884,901,901,901,860,0,0,0,0,853,854,901,901,901,901,885,886,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,853,854,901,901,890,0,0,0,0,883,884,901,901,901,860,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,883,884,901,901,1073742714,0,0,0,0,0,0,801,901,901,890,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,801,802,1073742684,0,792,795,796,795,796,821,901,860,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,831,0,801,823,822,901,901,901,901,901,901,890,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610613585,885,801,802,901,901,901,901,852,794,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,832,833,827,828,901,882,795,796,794,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,853,854,901,901,823,824,793,794,705,794,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,883,884,901,901,901,901,823,824,795,796,793,794,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,849,901,901,901,901,901,901,825,826,823,824,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,879,901,901,3221226260,3221226261,901,901,901,901,901,901,852,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,787,788,901,829,3221226259,0,0,3221226262,2147484477,901,901,901,901,882,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,887,0,0,0,0,0,1610613526,901,0,901,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer name="Layer 1" width="60" height="42">
+    <data encoding="csv">
+421,422,497,497,497,498,497,497,497,497,497,497,497,497,497,497,497,498,497,497,497,497,497,498,497,497,497,497,497,497,497,497,497,497,497,498,497,497,497,497,497,498,497,497,497,497,497,497,497,497,497,497,497,498,497,497,497,497,499,500,
+451,452,527,527,527,528,527,527,527,527,527,527,527,527,527,527,527,528,527,527,527,527,527,528,527,527,527,527,527,527,527,527,527,527,527,528,527,527,527,527,527,528,527,527,527,527,527,527,527,527,527,527,527,528,527,527,527,527,529,530,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,548,549,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+525,526,0,0,0,0,578,579,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,525,526,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,126,181,182,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,156,211,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,302,303,304,393,394,395,393,394,395,209,210,395,395,393,239,394,393,209,210,393,393,209,210,395,237,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+525,526,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,332,333,334,393,239,395,239,394,395,239,240,393,394,395,395,395,393,239,240,208,205,239,240,208,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,525,526,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,205,393,394,395,395,209,210,193,194,395,239,394,395,395,239,394,395,237,238,235,236,237,238,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,235,236,393,394,395,239,240,223,224,395,395,393,394,395,370,371,372,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,247,248,393,394,395,394,209,210,395,370,398,399,400,401,402,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,277,278,247,248,367,239,239,240,399,400,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,278,397,398,399,400,401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,496,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,439,440,
+525,526,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,469,470,
+481,482,497,497,497,497,498,497,497,497,497,497,497,497,497,497,497,497,498,497,497,497,497,497,497,497,443,444,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+511,512,527,527,527,527,528,527,527,527,527,527,527,527,527,527,527,527,528,527,527,527,527,527,527,527,473,474,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+525,526,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121,122,123,124,125,126,127,128,129,130,131,132,133,134,125,126,127,128,123,124,125,126,127,128,123,181,182,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,151,152,153,154,155,156,157,158,159,160,161,162,163,164,155,156,157,158,153,154,155,156,157,158,155,211,212,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,302,303,304,191,192,193,194,239,394,395,393,239,395,395,393,239,209,210,394,395,393,209,210,395,81,0,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,332,333,334,221,222,223,224,361,362,209,210,393,209,210,265,266,239,240,193,194,369,239,240,372,0,0,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,247,248,368,209,210,393,391,392,239,240,393,239,240,295,296,209,210,223,224,399,400,401,402,0,0,
+525,526,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,397,398,239,240,210,209,210,265,266,393,239,393,394,395,239,240,371,372,0,0,0,0,0,0,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,317,239,240,303,304,295,296,361,362,393,209,210,399,400,401,402,0,0,0,0,0,0,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,347,374,409,333,334,391,392,391,392,177,239,240,379,380,381,382,0,0,0,0,0,0,
+495,496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,289,290,293,294,0,0,0,0,0,289,290,293,294,373,374,258,394,395,209,210,177,239,240,409,410,411,412,0,0,255,256,0,0,
+495,496,0,121,122,133,134,135,136,137,138,139,140,141,142,139,140,141,142,137,138,139,140,141,142,321,322,323,324,325,326,139,140,320,141,142,323,324,325,326,376,377,378,209,210,239,240,393,193,194,393,393,209,210,379,380,285,286,115,0,
+525,526,0,151,152,163,164,165,166,167,168,169,170,171,172,169,170,171,172,167,168,169,170,171,172,351,352,353,354,355,356,169,170,350,171,172,353,354,355,356,406,407,177,239,240,177,177,239,223,224,177,177,239,240,409,410,221,239,221,89,
+423,424,443,444,373,374,345,239,361,239,239,191,239,361,362,191,239,191,191,191,361,362,239,191,209,210,191,303,304,305,306,191,193,194,210,191,239,265,266,191,239,265,266,239,303,304,305,306,191,191,209,210,191,303,304,305,306,193,194,119,
+453,454,473,474,277,0,247,248,391,392,191,239,239,391,392,239,191,239,239,239,391,392,191,191,239,240,191,333,334,335,336,191,223,224,240,191,191,295,296,209,210,295,296,191,333,334,335,336,191,191,239,240,191,333,334,335,336,223,224,207,
+0,0,0,0,0,0,277,278,247,248,251,252,253,254,251,252,253,254,191,191,191,191,251,252,253,254,251,252,253,254,221,221,221,239,251,252,253,254,254,239,240,221,221,251,252,253,254,251,252,253,254,221,221,221,221,221,239,221,221,237,
+0,0,0,0,0,0,0,277,277,278,281,282,283,284,281,282,283,284,247,248,249,250,281,282,283,284,281,282,283,284,247,248,249,250,281,282,283,284,284,373,374,371,372,281,282,283,284,281,282,283,284,247,248,249,250,373,374,371,372,0
+</data>
+  </layer>
+  <objectgroup name="Layer 2">
+    <object name="Player" type="" id="1" x="576" y="192" width="64" height="64" />
+    <object name="spawnPlayer1" type="" id="3" x="2112" y="192" width="64" height="64" />
+    <object name="spawnEnemy1" type="" id="4" x="576" y="832" width="64" height="64" />
+    <object name="spawnEnemy2" type="" id="5" x="2496" y="1408" width="64" height="64" />
+    <object name="spawnEnemy3" type="" id="6" x="3392" y="768" width="64" height="64" />
+    <object name="spawnEnemy4" type="" id="7" x="576" y="1792" width="64" height="64" />
+  </objectgroup>
+  <objectgroup name="Collide ">
+    <object name="collidable" type="" id="29" x="0" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="30" x="64" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="31" x="64" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="32" x="0" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="33" x="0" y="128" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="34" x="64" y="128" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="35" x="64" y="192" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="36" x="0" y="192" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="37" x="64" y="256" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="38" x="0" y="256" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="39" x="64" y="320" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="40" x="0" y="320" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="41" x="64" y="384" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="42" x="0" y="384" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="43" x="64" y="448" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="44" x="0" y="448" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="45" x="64" y="512" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="46" x="0" y="512" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="47" x="64" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="48" x="0" y="640" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="50" x="0" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="51" x="64" y="640" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="52" x="0" y="704" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="53" x="64" y="704" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="54" x="64" y="768" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="55" x="0" y="768" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="56" x="64" y="832" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="57" x="64" y="960" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="58" x="0" y="896" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="59" x="0" y="832" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="60" x="64" y="896" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="61" x="0" y="960" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="62" x="64" y="1024" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="63" x="0" y="1024" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="64" x="64" y="1088" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="65" x="0" y="1088" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="66" x="64" y="1216" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="67" x="0" y="1216" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="68" x="0" y="1152" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="69" x="64" y="1152" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="70" x="0" y="1280" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="71" x="64" y="1280" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="72" x="64" y="1344" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="73" x="0" y="1344" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="74" x="0" y="1408" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="75" x="64" y="1408" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="76" x="64" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="77" x="0" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="78" x="0" y="1600" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="79" x="64" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="80" x="64" y="1600" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="81" x="0" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="82" x="64" y="1664" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="83" x="64" y="1728" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="84" x="64" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="85" x="64" y="1856" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="86" x="64" y="1920" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="87" x="64" y="1984" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="88" x="64" y="2048" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="89" x="64" y="2112" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="90" x="64" y="2176" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="91" x="64" y="2240" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="92" x="64" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="93" x="64" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="94" x="64" y="2432" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="95" x="128" y="2432" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="96" x="128" y="2496" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="97" x="64" y="2496" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="98" x="0" y="2496" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="99" x="0" y="2432" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="100" x="0" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="101" x="0" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="102" x="0" y="2240" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="103" x="0" y="2176" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="104" x="0" y="2048" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="105" x="0" y="1984" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="106" x="0" y="1856" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="107" x="0" y="1728" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="108" x="0" y="1664" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="109" x="0" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="110" x="0" y="1920" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="111" x="0" y="2112" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="112" x="192" y="2496" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="113" x="256" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="114" x="320" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="115" x="384" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="116" x="448" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="117" x="512" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="118" x="576" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="119" x="640" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="120" x="704" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="121" x="768" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="122" x="896" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="123" x="960" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="124" x="1024" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="125" x="832" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="126" x="1088" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="127" x="1152" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="128" x="1216" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="129" x="1280" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="130" x="1344" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="131" x="1856" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="132" x="1536" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="133" x="1728" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="134" x="1600" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="135" x="1792" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="136" x="1856" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="137" x="1600" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="138" x="1792" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="139" x="1664" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="140" x="1664" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="141" x="1408" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="142" x="1472" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="143" x="1920" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="144" x="2048" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="145" x="1984" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="146" x="2176" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="147" x="2304" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="148" x="2240" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="149" x="2112" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="150" x="2368" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="151" x="2496" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="152" x="2432" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="153" x="2368" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="154" x="2432" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="155" x="2560" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="156" x="2624" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="157" x="2688" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="158" x="2688" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="159" x="2688" y="2240" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="160" x="2624" y="2240" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="161" x="2624" y="2176" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="162" x="2560" y="2176" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="163" x="2496" y="2176" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="164" x="2496" y="2112" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="165" x="2496" y="2048" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="166" x="2432" y="2048" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="167" x="2368" y="1984" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="168" x="2304" y="1920" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="169" x="2240" y="1920" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="170" x="2176" y="1856" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="171" x="2176" y="1728" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="172" x="2240" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="173" x="2176" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="174" x="2304" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="175" x="2368" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="176" x="2432" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="177" x="2560" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="178" x="2496" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="179" x="2688" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="180" x="2624" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="181" x="2752" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="182" x="2816" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="183" x="2944" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="184" x="2880" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="185" x="3008" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="186" x="3072" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="187" x="3136" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="188" x="3200" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="189" x="3264" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="190" x="3328" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="191" x="3392" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="192" x="3456" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="193" x="3520" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="194" x="3584" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="195" x="3648" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="196" x="3712" y="1792" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="197" x="3648" y="1856" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="198" x="3584" y="1856" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="199" x="3520" y="1920" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="200" x="3456" y="1920" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="201" x="3392" y="1920" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="202" x="3392" y="1984" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="203" x="3328" y="2048" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="204" x="3264" y="2048" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="205" x="3200" y="2048" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="206" x="3136" y="2112" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="207" x="3136" y="2176" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="208" x="3136" y="2240" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="209" x="3200" y="2240" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="210" x="3264" y="2240" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="211" x="3328" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="212" x="3392" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="213" x="3456" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="214" x="3456" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="215" x="3520" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="216" x="3584" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="217" x="3648" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="218" x="3648" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="219" x="3712" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="220" x="3712" y="2368" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="221" x="3776" y="2432" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="222" x="3776" y="2496" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="223" x="3712" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="224" x="3648" y="2624" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="225" x="3584" y="2624" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="226" x="3520" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="227" x="3456" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="228" x="3392" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="229" x="3392" y="2624" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="230" x="3328" y="2624" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="231" x="3328" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="232" x="3264" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="233" x="3200" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="234" x="3136" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="235" x="3072" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="236" x="3008" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="237" x="2944" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="238" x="2880" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="239" x="2816" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="240" x="2752" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="241" x="2624" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="242" x="2560" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="243" x="2496" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="244" x="2560" y="2624" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="245" x="2624" y="2624" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="246" x="2688" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="247" x="2432" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="248" x="2368" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="249" x="2304" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="250" x="2240" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="251" x="2112" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="252" x="2176" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="253" x="2048" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="254" x="2048" y="2624" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="255" x="1984" y="2624" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="256" x="1984" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="257" x="1920" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="258" x="1856" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="259" x="1728" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="260" x="1792" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="261" x="1664" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="262" x="1600" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="263" x="1472" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="264" x="1536" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="265" x="1408" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="266" x="1344" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="267" x="1280" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="268" x="1216" y="2624" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="269" x="1280" y="2624" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="270" x="1216" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="271" x="1152" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="272" x="1088" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="273" x="1024" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="274" x="960" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="275" x="896" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="276" x="832" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="277" x="768" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="278" x="704" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="279" x="640" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="280" x="576" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="281" x="512" y="2496" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="282" x="448" y="2496" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="283" x="320" y="2432" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="284" x="384" y="2432" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="285" x="448" y="2432" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="286" x="192" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="287" x="896" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="288" x="384" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="289" x="704" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="290" x="448" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="291" x="576" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="292" x="512" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="293" x="640" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="294" x="768" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="295" x="832" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="296" x="256" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="297" x="320" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="298" x="128" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="299" x="960" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="300" x="1088" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="301" x="1152" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="302" x="256" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="303" x="192" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="304" x="128" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="305" x="704" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="306" x="384" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="307" x="832" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="308" x="448" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="309" x="640" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="310" x="512" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="311" x="320" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="312" x="576" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="313" x="960" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="314" x="768" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="315" x="896" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="316" x="1024" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="317" x="1024" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="318" x="1088" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="319" x="1152" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="320" x="1216" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="321" x="1280" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="322" x="1472" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="323" x="1536" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="324" x="1664" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="325" x="1600" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="326" x="1408" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="327" x="1344" y="1472" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="328" x="1216" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="329" x="1280" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="330" x="1344" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="331" x="1408" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="332" x="1472" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="333" x="1536" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="334" x="1664" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="335" x="1728" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="336" x="1600" y="1536" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="337" x="1152" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="338" x="1216" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="339" x="1152" y="640" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="340" x="1280" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="341" x="1408" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="342" x="1344" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="343" x="1472" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="344" x="1536" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="345" x="1600" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="346" x="1664" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="347" x="1728" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="348" x="1728" y="512" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="349" x="1792" y="512" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="350" x="1792" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="351" x="1856" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="352" x="1920" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="353" x="1984" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="354" x="2048" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="355" x="2112" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="356" x="2176" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="357" x="2240" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="358" x="2304" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="359" x="2368" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="360" x="2432" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="361" x="2496" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="362" x="2560" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="363" x="2624" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="364" x="2688" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="365" x="2624" y="640" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="366" x="2560" y="704" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="367" x="2496" y="704" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="368" x="2432" y="640" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="369" x="2368" y="640" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="370" x="2304" y="704" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="371" x="2240" y="768" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="372" x="2176" y="768" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="373" x="2112" y="768" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="374" x="2112" y="832" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="375" x="2240" y="704" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="376" x="2304" y="640" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="377" x="2048" y="832" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="378" x="1984" y="832" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="379" x="1984" y="896" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="380" x="1920" y="896" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="381" x="1920" y="832" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="382" x="1856" y="896" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="383" x="1856" y="832" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="384" x="1792" y="960" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="385" x="1792" y="896" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="386" x="1728" y="960" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="387" x="1664" y="960" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="388" x="1600" y="960" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="389" x="1536" y="960" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="390" x="1472" y="896" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="391" x="1408" y="896" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="392" x="1408" y="832" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="393" x="1344" y="832" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="394" x="1280" y="768" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="395" x="1216" y="704" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="396" x="1216" y="640" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="397" x="1280" y="704" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="398" x="1344" y="768" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="399" x="1472" y="832" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="400" x="1536" y="896" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="401" x="256" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="402" x="832" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="403" x="768" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="404" x="320" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="405" x="704" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="406" x="128" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="407" x="512" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="408" x="192" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="409" x="448" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="410" x="384" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="411" x="128" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="412" x="192" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="413" x="256" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="414" x="320" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="415" x="384" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="416" x="512" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="417" x="640" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="418" x="576" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="419" x="576" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="420" x="640" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="421" x="448" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="422" x="704" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="423" x="832" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="424" x="1280" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="425" x="896" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="426" x="1216" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="427" x="960" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="428" x="1152" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="429" x="1088" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="430" x="1024" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="431" x="896" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="432" x="1088" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="433" x="960" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="434" x="1216" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="435" x="1280" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="436" x="1024" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="437" x="768" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="438" x="1152" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="439" x="1344" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="440" x="1792" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="441" x="1408" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="442" x="1856" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="443" x="1408" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="444" x="1728" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="445" x="1472" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="446" x="1664" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="447" x="1472" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="448" x="1600" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="449" x="1536" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="450" x="1600" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="451" x="1536" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="452" x="1344" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="453" x="1664" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="454" x="1792" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="455" x="1728" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="456" x="1856" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="457" x="1984" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="458" x="1984" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="459" x="2304" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="460" x="2048" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="461" x="2240" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="462" x="2112" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="463" x="1920" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="464" x="1920" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="465" x="2176" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="466" x="2048" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="467" x="2176" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="468" x="2112" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="469" x="2240" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="470" x="2304" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="471" x="2368" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="472" x="2368" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="473" x="2432" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="474" x="2624" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="475" x="2688" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="476" x="2560" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="477" x="2496" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="478" x="2432" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="479" x="2496" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="480" x="2560" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="481" x="2624" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="482" x="2688" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="483" x="2752" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="484" x="2752" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="485" x="2816" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="486" x="2816" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="487" x="3008" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="488" x="2880" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="489" x="3072" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="490" x="3008" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="491" x="2880" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="492" x="2944" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="493" x="2944" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="494" x="3072" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="495" x="3328" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="496" x="3136" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="497" x="3328" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="498" x="3200" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="499" x="3200" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="500" x="3136" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="501" x="3264" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="502" x="3264" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="503" x="3392" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="504" x="3520" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="505" x="3392" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="506" x="3456" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="507" x="3520" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="508" x="3584" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="509" x="3648" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="510" x="3456" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="511" x="3648" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="512" x="3584" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="513" x="3776" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="514" x="3712" y="0" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="515" x="3712" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="516" x="3776" y="64" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="517" x="3712" y="128" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="518" x="3776" y="128" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="519" x="3712" y="192" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="520" x="3776" y="192" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="521" x="3712" y="256" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="522" x="3776" y="256" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="523" x="3712" y="320" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="524" x="3776" y="384" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="525" x="3712" y="384" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="526" x="3776" y="320" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="527" x="3712" y="448" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="528" x="3776" y="448" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="529" x="3776" y="512" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="530" x="3712" y="512" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="531" x="3776" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="532" x="3712" y="576" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="533" x="3712" y="640" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="534" x="3776" y="640" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="535" x="3776" y="704" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="536" x="3776" y="768" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="537" x="3776" y="832" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="538" x="3776" y="896" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="539" x="3776" y="960" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="540" x="3712" y="896" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="541" x="3712" y="832" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="542" x="3712" y="768" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="543" x="3712" y="704" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="544" x="3712" y="960" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="545" x="3712" y="1024" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="546" x="3776" y="1024" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="547" x="3776" y="1088" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="548" x="3712" y="1088" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="549" x="3712" y="1152" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="550" x="3776" y="1152" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="551" x="3712" y="1216" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="552" x="3776" y="1216" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="553" x="3712" y="1280" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="554" x="3776" y="1280" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="555" x="3712" y="1344" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="556" x="3776" y="1408" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="557" x="3776" y="1344" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="558" x="576" y="2496" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="559" x="3584" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="560" x="3648" y="2560" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="561" x="3712" y="2432" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="562" x="3712" y="2496" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="563" x="3648" y="2496" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="564" x="3328" y="1984" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="565" x="3136" y="2048" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="566" x="3264" y="2304" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="567" x="3520" y="1856" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="568" x="2432" y="1984" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="569" x="2368" y="1920" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="570" x="2240" y="1856" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object name="collidable" type="" id="571" x="2560" y="2112" width="64" height="64">
+      <properties>
+        <property name="collidable" value="true" />
+        <property name="isTile" value="true" />
+      </properties>
+    </object>
+    <object type="" id="0" x="0" y="0" width="" height="" />
+    <object type="" id="0" x="0" y="0" width="" height="" />
+  </objectgroup>
+  <layer name="Layer 6" width="60" height="42">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,610,611,610,611,610,611,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,640,641,640,641,640,641,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,548,549,548,549,548,549,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,578,579,578,579,578,579,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+</map>

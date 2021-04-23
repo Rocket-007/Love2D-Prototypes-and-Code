@@ -1,0 +1,659 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<map version="1.2" orientation="orthogonal" renderorder="right-down" width="60" height="40" tilewidth="32" tileheight="32" nextobjectid="562">
+  <properties>
+    <property name="sw1" value="128" />
+    <property name="sw2" value="16" />
+    <property name="sw3" value="139" />
+    <property name="sw4" value="62" />
+  </properties>
+  <tileset firstgid="1" name="goodly-2x" columns="16" tilecount="256" tileheight="32" tilewidth="32">
+    <image source="imgs/goodly-2x.png" width="512" height="512" />
+    <tile id="15">
+      <properties>
+        <property name="collidable" type="boolean" value="true" />
+      </properties>
+    </tile>
+  </tileset>
+  <tileset firstgid="257" name="me" columns="2" tilecount="4" tileheight="32" tilewidth="32">
+    <image source="imgs/me.png" width="64" height="64" />
+    <tile id="2">
+      <properties>
+        <property name="collidable" type="boolean" value="true" />
+      </properties>
+    </tile>
+    <tile id="0">
+      <properties>
+        <property name="collidable" type="boolean" value="true" />
+      </properties>
+    </tile>
+    <tile id="3">
+      <properties>
+        <property name="collidable" type="boolean" value="true" />
+      </properties>
+    </tile>
+    <tile id="1">
+      <properties>
+        <property name="collidable" type="boolean" value="true" />
+      </properties>
+    </tile>
+  </tileset>
+  <layer name="Layer 1" width="60" height="40">
+    <data encoding="csv">
+54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62
+</data>
+  </layer>
+  <layer name="Layer 2" width="60" height="40">
+    <data encoding="csv">
+190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,17,18,19,0,101,102,103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,117,118,119,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,33,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,33,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,153,154,154,154,154,155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,33,34,35,0,17,18,19,0,0,0,0,0,0,0,0,0,0,0,169,170,170,170,170,171,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,33,34,35,0,49,50,51,0,0,0,0,0,0,0,0,0,0,0,169,170,170,170,170,171,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,33,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,169,170,170,170,170,171,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,33,34,35,0,0,0,0,0,17,18,19,0,0,0,0,0,0,0,169,170,170,170,170,171,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,33,34,35,0,0,0,0,0,49,50,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,33,34,35,17,18,19,0,71,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,33,34,35,49,50,51,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,33,34,35,0,0,0,0,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,33,34,35,0,0,0,0,33,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,91,0,0,0,0,0,0,0,0,0,
+0,33,34,35,0,33,34,35,33,34,35,0,0,0,0,33,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,107,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,107,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,107,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,107,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,153,154,154,154,154,154,155,0,0,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,107,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,169,170,170,170,170,170,171,0,0,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,107,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,169,170,170,170,170,170,171,0,0,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,107,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,169,170,170,170,170,170,171,0,0,121,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,123,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,169,170,170,170,170,170,171,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,153,154,155,153,154,155,153,154,155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,169,170,170,170,170,170,170,170,171,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,169,170,170,170,170,170,170,170,171,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,169,170,170,170,170,170,170,170,171,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,89,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,105,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,106,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup name="collision">
+    <object name="Player" type="" id="21" x="176" y="112">
+      <point />
+      <properties>
+        <property name="SpawnPoint" value="" />
+      </properties>
+    </object>
+    <object name="" type="" id="561" x="736" y="96" width="32" height="32" />
+  </objectgroup>
+  <objectgroup name="Layer 4">
+    <object name="" type="" id="456" x="32" y="64" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="457" x="64" y="64" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="458" x="96" y="64" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="459" x="32" y="96" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="460" x="96" y="96" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="461" x="96" y="128" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="462" x="32" y="128" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="463" x="96" y="160" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="464" x="32" y="160" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="465" x="96" y="192" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="466" x="32" y="192" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="467" x="96" y="224" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="468" x="32" y="224" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="469" x="96" y="256" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="470" x="32" y="256" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="471" x="96" y="288" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="472" x="32" y="288" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="473" x="96" y="320" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="474" x="32" y="320" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="475" x="96" y="352" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="476" x="32" y="352" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="477" x="96" y="384" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="478" x="32" y="384" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="479" x="96" y="416" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="480" x="32" y="416" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="481" x="96" y="448" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="482" x="32" y="448" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="483" x="96" y="480" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="484" x="32" y="480" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="485" x="96" y="512" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="486" x="32" y="544" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="487" x="96" y="544" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="488" x="32" y="512" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="489" x="32" y="576" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="490" x="96" y="576" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="491" x="96" y="608" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="492" x="32" y="608" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="493" x="160" y="608" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="494" x="224" y="608" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="495" x="160" y="576" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="496" x="224" y="576" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="497" x="160" y="544" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="498" x="224" y="544" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="499" x="160" y="512" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="500" x="224" y="512" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="501" x="320" y="608" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="502" x="320" y="544" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="503" x="320" y="512" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="504" x="320" y="576" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="505" x="320" y="480" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="506" x="160" y="480" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="507" x="320" y="448" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="508" x="160" y="416" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="509" x="160" y="448" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="510" x="320" y="416" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="511" x="160" y="384" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="512" x="320" y="352" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="513" x="160" y="352" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="514" x="320" y="384" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="515" x="160" y="288" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="516" x="320" y="320" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="517" x="160" y="320" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="518" x="320" y="288" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="519" x="160" y="256" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="520" x="320" y="256" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="521" x="160" y="224" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="522" x="320" y="224" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="523" x="288" y="224" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="524" x="256" y="224" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="525" x="160" y="160" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="526" x="160" y="192" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="527" x="160" y="128" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="528" x="192" y="128" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="529" x="224" y="128" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="530" x="224" y="160" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="531" x="224" y="192" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="532" x="224" y="224" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="533" x="448" y="320" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="534" x="384" y="320" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="535" x="416" y="320" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="536" x="384" y="352" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="537" x="448" y="352" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="538" x="416" y="480" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="539" x="352" y="480" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="540" x="384" y="480" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="541" x="352" y="512" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="542" x="416" y="512" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="543" x="384" y="512" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="544" x="512" y="448" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="545" x="544" y="448" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="546" x="576" y="448" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="547" x="544" y="416" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="548" x="512" y="416" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="549" x="576" y="416" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="550" x="416" y="352" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="551" x="544" y="544" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="552" x="480" y="544" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="553" x="512" y="544" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="554" x="480" y="576" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="555" x="512" y="576" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="556" x="544" y="576" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="557" x="480" y="608" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="558" x="512" y="608" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+    <object name="" type="" id="559" x="544" y="608" width="32" height="32">
+      <properties>
+        <property name="collidable" value="true" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>
